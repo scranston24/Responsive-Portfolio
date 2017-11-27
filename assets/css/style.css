@@ -219,7 +219,6 @@ input [type=submit] {
   header nav,
   header nav a,
   .sidebar,
-  .main-section h1,
   #connect h2{
     float: none;
     text-align: center;

@@ -43,14 +43,15 @@ h2, h3 {
 }
 
 #masthead {
-  position: fixed;
+  position: relative;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
-  overflow: auto;
+  overflow-x: hidden;
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+
 }
 
 #logo {
@@ -218,19 +219,14 @@ input [type=submit] {
   header #logo,
   header nav,
   header nav a,
-  .sidebar,
-  #connect h2{
-    float: none;
+  section .sidebar,
+  #connect,
+  #main-container,
+  .main-section ul{
     text-align: center;
     width: 100%;
-  }
-
-  header{
-    padding-bottom: 20px;
-  }
-
-  .sidebar{
-    padding-top: 20px;
-  }
-
 }
+
+  header #masthead{
+    position: static;
+  }
